@@ -17,7 +17,7 @@ written in RestAssured and Java
 * Maven installed and in your classpath. Please follow this guide to install maven if its not already installed
   [Maven Installation](https://maven.apache.org/install.html)
 * Lombok
-* Cucumber
+* TestNG
 
 
 ## How to execute the tests
