@@ -50,3 +50,15 @@ You can use the command line to generate it in two ways:
 
 `mvn allure:serve`: will open the HTML report into the browser
 `mvn allure:report`: will generate the HTML port at target/site/allure-maven-plugin folder
+
+## About the Project Structure
+
+The project contains the parent package `com.api.jsonplaceholder` which contains below package:
+`api` package consists of endpiont class which has endpoints used in test
+`common` package consists of common request method used in each test
+`models` package consists of request POJO classes for each test
+`request` package consists of request specification for each test
+`steps` package consists of tests classes.
+`reports` package consists of AllureManager Class to display the system info and browser in report. 
+
+
