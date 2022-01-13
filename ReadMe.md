@@ -35,14 +35,14 @@ command line. It enables us to run in different test execution strategies and, a
 ## Patterns applied
 * POJO Classes with Builder Pattern
 * Request and Response Specification
-* Test Classes with Run Using TestNG
+* Test Classes Executed Using TestNG
 
 ## Pipeline
-This task uses [CircleCI](https://circleci.com/) to run the all the tests in a pipeline.
+This repo uses [CircleCI](https://circleci.com/) to run the all the tests in a pipeline.
 
 ## Generating the test report
 
-This task uses Allure Report to automatically generate the test report. There are some configuration to make it happen:
+This repo uses uses Allure Report to automatically generate the test report. There are some configuration to make it happen:
 
 aspectj configuration on pom.xml file
 allure.properties file on src/test/resources
